@@ -1,16 +1,57 @@
-# client
+# <Simple> - <서비스명>
 
-A new Flutter project.
+## 서비스 요약
 
-## Getting Started
+동네(대구)에서 진행하는 팝업들을 보여주고, 팝업을 들리면서 가기 좋은 코스까지 추천해주는 서비스
 
-This project is a starting point for a Flutter application.
+## 주제 구분
 
-A few resources to get you started if this is your first Flutter project:
+-   C타입 대구 지역 상권을 살리는데 도움을 주는 서비스
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 팀원 소개
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| <img src="https://avatars.githubusercontent.com/u/80797496?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/151692917?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/66457807?v=4" width="150" height="150"/> |
+| :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+|               김준형<br/>[@junhyung85920](https://github.com/junhyung85920)                |                      송재훈<br/>[@jhssong](https://github.com/jhssong)                      |                      조재용<br/>[@WithJo](https://github.com/WithJo)                       |
+
+## 시연 영상
+
+(필수) Youtube 링크
+(선택) Github Repository 페이지에서 바로 볼 수 있도록 넣어주셔도 좋습니다.
+
+## 서비스 소개
+
+### 서비스 개요
+
+동네에서 진행되는 팝업을 알려주고, 함께 즐길 수 있는 나들이 코스를 추천해주는 서비스이다.
+
+사용자는 서비스를 통해 동네에서 진행하고 있는 팝업, 추천되는 팝업을 접할 수 있다.
+또한, 둘러보기에서는 팝업의 종류에 따라 팝업들을 필터링 할 수 있다.
+
+만약 팝업을 선택하게 된다면 해당 팝업을 이용한 나들이 코스를 추천받을 수 있다.
+
+### 타서비스와의 차별점
+
+기존 서비스는 광범위하게 그저 팝업 정보를 알려주는 서비스에 그쳤다. 하지만, <서비스명>은 자신의 동네 에서 진행하는 팝업을 보여주고 해당 팝업을 이용한 나들이 코스도 알려주면서 팝업을 보다 잘 이용할 수 있도록 도와준다. 또한 동네의 팝업들을 중점으로 소개하면서 주변 상권들도 소개하기 때문에 상권을 활성화 하는데, 도움이 된다.
+
+### 구현 내용 및 결과물
+
+서비스의 실제 구현 내용과 결과물을 기재한다.
+
+ex)
+
+1. 실력별 매칭 시스템
+
+-   본인이 미리 선택한 탁구 실력에 맞추어 다른 사용자를 매칭해준다.
+-   매칭된 사용자와의 매칭이 종료된 이후, 상대의 실력을 평가할 수 있다.
+
+2. 탁구 용품 구매 페이지
+
+### 구현 방식
+
+어떤 언어와 프레임워크를 사용했는지, 만약 배포를 진행했다면 환경은 어떤지 등을 기재
+ex) 프론트엔드로는 TypeScript와 React를 사용, 백엔드로는 Java와 Spring을 사용. AWS를 통해 배포를 진행
+
+## 향후 개선 혹은 발전 방안
+
+현재 개발된 서비스에서 향후 개선되거나 발전될 수 있는 부분에 대한 설명
