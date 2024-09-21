@@ -72,6 +72,39 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: SignUpBusinessScreen());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: theme,
+      home: SafeArea(
+        top: false,
+        bottom: false,
+        child: WillPopScope(
+          onWillPop: _onWillPop,
+          child: Scaffold(
+            bottomNavigationBar: Container(
+              child: BottomNavigationBar(
+                items: const [
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.home),
+                    label: '홈',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.search),
+                    label: '둘러보기',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.info),
+                    label: '마이페이지',
+                  ),
+                ],
+                currentIndex: _currentBottomNavIndex,
+                onTap: _onBottomNavTapped,
+              ),
+            ),
+            body: _screenList.elementAt(_currentBottomNavIndex),
+          ),
+        ),
+      ),
+    );
   }
 }
