@@ -1,5 +1,7 @@
 # Simple - 팝업 더 로컬
 
+[server github](https://github.com/junhyung85920/server)
+
 ## 서비스 요약
 
 지방 소상공인을 위한 공유 팝업 스토어 플랫폼
